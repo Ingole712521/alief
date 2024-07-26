@@ -1,0 +1,81 @@
+/* AboutSection.css */
+.about-section {
+  width: 100%;
+  padding: 50px 20px; /* Adjust padding as needed */
+  background-color: #f9f9f9; /* Light background color */
+  text-align: center; /* Center text by default */
+}
+
+.about-title {
+  font-size: 4rem; /* Large title size */
+  margin-bottom: 30px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row; /* Align logo and description side-by-side */
+  align-items: center; /* Center align items vertically */
+  justify-content: center; /* Center align items horizontally */
+  gap: 30px; /* Space between logo and description */
+  flex-wrap: wrap; /* Allow wrapping to handle smaller screens */
+}
+
+.about-logo {
+  max-width: 300px; /* Adjusted size for better responsiveness */
+  height: auto;
+}
+
+.about-description {
+  font-size: 1.5rem; /* Increase description size */
+  max-width: 600px; /* Limit width for better readability */
+  line-height: 1.6; /* Improve readability */
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .about-title {
+    font-size: 3rem; /* Adjust size for medium screens */
+  }
+
+  .about-description {
+    font-size: 1.25rem; /* Adjust size for medium screens */
+  }
+
+  .about-logo {
+    max-width: 250px; /* Reduce size for medium screens */
+  }
+}
+
+@media (max-width: 992px) {
+  .about-title {
+    font-size: 2.5rem; /* Adjust size for smaller screens */
+  }
+
+  .about-description {
+    font-size: 1.1rem; /* Adjust size for smaller screens */
+  }
+
+  .about-logo {
+    max-width: 200px; /* Reduce size for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .about-title {
+    font-size: 2rem; /* Adjust size for mobile screens */
+  }
+
+  .about-description {
+    font-size: 1rem; /* Adjust size for mobile screens */
+    max-width: 90%; /* Allow more room for description on small screens */
+  }
+
+  .about-logo {
+    max-width: 150px; /* Reduce size for mobile screens */
+  }
+
+  .about-content {
+    flex-direction: column; /* Stack logo and description vertically on mobile screens */
+    gap: 15px; /* Adjust space between logo and description */
+  }
+}
