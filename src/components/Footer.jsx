@@ -1,8 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faEnvelope, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import "../style/Footer.css";
-// Import the company logo
-import companyLogo from '../assets/company-logo.png';
+import companyLogo from '../assets/Aliief_white.png';
 
 const Footer = () => {
   return (
@@ -10,7 +9,7 @@ const Footer = () => {
       <div className="footer-logo">
         <img src={companyLogo} alt="Company Logo" />
       </div>
-      <div className="divider"></div>
+      <div className="footer-divider"></div>
       <div className="footer-content">
         <div className="footer-section">
           <h3>Reach Us</h3>
@@ -44,7 +43,7 @@ const Footer = () => {
               <input type="checkbox" />
               I agree to receive weekly updates
             </label>
-            <button type="submit">Subscribe</button>
+            <button type="submit" className="submit-button">Subscribe</button>
           </form>
         </div>
       </div>

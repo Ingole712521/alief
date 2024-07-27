@@ -1,102 +1,102 @@
-/* Footer.css */
 .footer {
-    background-color: #d6205c; /* Dark pink background */
-    color: white;
-    padding: 20px;
+  background-color: #d6205c; /* Dark pink background */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+}
+
+.footer-logo img {
+  width: 150px;
+  height: auto;
+}
+
+.footer-divider {
+  border-top: 4px solid white; /* Thick white dividing line */
+  margin: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-section {
+  flex: 1 1 200px; /* Allows sections to grow and shrink */
+  margin: 10px;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.footer-section p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+.footer-section a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section a:hover {
+  color: #ff99cc; /* Light pink color on hover */
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.newsletter-form input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.newsletter-form label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.submit-button {
+  padding: 10px;
+  background-color: #ff99cc; /* Light pink color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #ff6699; /* Darker pink color on hover */
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section {
     text-align: center;
   }
-  
-  .footer-logo {
-    margin-bottom: 20px;
-  }
-  
-  .footer-logo img {
-    width: 150px;
-    height: auto;
-  }
-  
-  .footer-divider {
-    border-top: 4px solid white; /* Thick white dividing line */
-    margin: 20px 0;
-  }
-  
-  .footer-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  
+}
+
+@media (max-width: 480px) {
   .footer-section {
-    flex: 1 1 200px; /* Allows sections to grow and shrink */
-    margin: 10px;
+    flex: 1 1 100%;
   }
-  
-  .footer-section h3 {
-    margin-bottom: 10px;
-    font-size: 1.2rem;
-  }
-  
-  .footer-section p {
-    margin: 5px 0;
-    font-size: 1rem;
-  }
-  
-  .footer-section a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s;
-  }
-  
-  .footer-section a:hover {
-    color: #ff99cc; /* Light pink color on hover */
-  }
-  
-  .footer-section a svg {
-    margin-right: 5px;
-  }
-  
-  .newsletter-form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  .newsletter-form input {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-  }
-  
-  .newsletter-form label {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-  }
-  
-  .submit-button {
-    padding: 10px;
-    background-color: #ff99cc; /* Light pink color */
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .submit-button:hover {
-    background-color: #ff6699; /* Darker pink color on hover */
-  }
-  
-  @media (max-width: 768px) {
-    .footer-content {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .footer-section {
-      text-align: right;
-    }
-  }
-  
+}
