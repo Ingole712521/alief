@@ -5,8 +5,7 @@ import backgroundImage from '../assets/background.png'; // Adjust path as needed
 
 const HomeSection = () => {
   return (
-    <section id="home" 
-      className="home-section"
+    <section id="home" className="home-section"
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <div className="home-content">

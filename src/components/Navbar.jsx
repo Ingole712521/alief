@@ -15,10 +15,10 @@ const Navbar = () => {
         <img src={images} alt="Company Logo" />
       </div>
       <div className={`navbar-links ${isMobileMenuOpen ? 'active' : ''}`}>
-        <a href="./home" onClick={() => setIsMobileMenuOpen(false)}>Home</a>
-        <a href="./about" onClick={() => setIsMobileMenuOpen(false)}>About Us</a>
-        <a href="./upcoming" onClick={() => setIsMobileMenuOpen(false)}>Upcoming Events</a>
-        <a href="./contact" onClick={() => setIsMobileMenuOpen(false)}>Contact Us</a>
+        <a href="./" onClick={() => setIsMobileMenuOpen(false)}>Home</a>
+        <a href="#about" onClick={() => setIsMobileMenuOpen(false)}>About Us</a>
+        <a href="#upcoming" onClick={() => setIsMobileMenuOpen(false)}>Upcoming Events</a>
+        <a href="#contact" onClick={() => setIsMobileMenuOpen(false)}>Contact Us</a>
       </div>
       <div className="navbar-hamburger" onClick={toggleMobileMenu}>
         <div className="hamburger-line"></div>
