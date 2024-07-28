@@ -2,7 +2,7 @@
 .about-section {
   width: 100%;
   padding: 50px 20px; /* Adjust padding as needed */
-  background-color: #f9f9f9; /* Light background color */
+  background-color: #ffffff; /* Light background color */
   text-align: center; /* Center text by default */
 }
 
@@ -21,7 +21,7 @@
 }
 
 .about-logo {
-  max-width: 300px; /* Adjusted size for better responsiveness */
+  max-width: 500px; /* Adjusted size for better responsiveness */
   height: auto;
 }
 

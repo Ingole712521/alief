@@ -2,7 +2,7 @@
 .gallery-section {
     padding: 20px;
     text-align: center;
-    background-color: #f0f0f0; /* Light background color */
+    background-color: #ffffff; /* Light background color */
   }
   
   .image-slider {
@@ -20,9 +20,9 @@
   }
   
   .section-title {
-    font-size: 2.5rem;
+    font-size: 4rem;
     margin-bottom: 30px;
-    position: relative;
+    position: center;
     z-index: 1;
     background: #fff; /* White background to make sure it's visible */
     display: inline-block;
@@ -40,14 +40,14 @@
   .event-container {
     background-color: white;
     width: calc(33.33% - 20px); /* Three containers with space between */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(236, 35, 136, 0.1);
     border-radius: 10px;
     overflow: hidden;
     transition: transform 0.3s ease;
   }
   
   .event-container:hover {
-    transform: scale(1.05); /* Zoom on hover */
+    transform: scale(1.15); /* Zoom on hover */
   }
   
   .event-image {

@@ -1,44 +1,7 @@
-import  { useState } from 'react';
-import emailjs from 'emailjs-com';
 import "../style/ContactSection.css";
 import contactImage from "../assets/Frame.png";
 
 const ContactSection = () => {
-  const [formData, setFormData] = useState({
-    firstName: '',
-    lastName: '',
-    email: '',
-    contactDetail: '',
-    message: '',
-  });
-
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
-    const serviceID = 'service_yre6h99';
-    const templateID = 'template_o15uq2z';
-
-    const templateParams = {
-      firstName: formData.firstName,
-      lastName: formData.lastName,
-      email: formData.email,
-      contactDetail: formData.contactDetail,
-      message: formData.message,
-    };
-
-    emailjs.send(serviceID, templateID, templateParams)
-      .then((response) => {
-        console.log('SUCCESS!', response.status, response.text);
-      })
-      .catch((error) => {
-        console.error('FAILED...', error);
-      });
-  };
-
   return (
     <section id="contact" className="contact-section">
     <h2 className="contact-title">Let's Connect</h2>

@@ -1,8 +1,5 @@
-// components/AboutSection.jsx
-import '../style/AboutSection.css'; // Ensure you have this CSS file for styling
-
-// Import the company logo
-import companyLogo from '../assets/company-logo.png'; // Adjust path as needed
+import '../style/AboutSection.css';
+import companyLogo from '../assets/company-logo.png'; 
 
 const AboutSection = () => {
   return (

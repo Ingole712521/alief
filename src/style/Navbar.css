@@ -9,17 +9,25 @@
   align-items: center;
   padding: 10px 20px;
   background-color: #fff;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #dadada;
   z-index: 1000;
 }
 
 .navbar-logo img {
-  height: 70px; /* Increased size of logo */
+  height: 40px; /* Increased size of logo */
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .navbar-links {
   display: flex;
-  gap: 60px; /* Space between links */
+  gap: 80px; /* Space between links */
+  justify-content: center; /* Center the links */
 }
 
 .navbar-links a {

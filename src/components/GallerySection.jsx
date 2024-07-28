@@ -1,7 +1,5 @@
 import  { useState, useEffect } from 'react';
 import "../style/GallerySection.css";
-
-// Import images for the slider and containers
 import sliderImage1 from '../assets/image1.png';
 import sliderImage2 from '../assets/image2.png';
 import sliderImage3 from '../assets/image3.png';
@@ -17,7 +15,7 @@ const GallerySection = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % sliderImages.length);
-    }, 3000); // Change image every 3 seconds
+    }, 3000); 
     return () => clearInterval(interval);
   }, [sliderImages.length]);
 

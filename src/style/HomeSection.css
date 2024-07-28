@@ -1,4 +1,6 @@
 /* HomeSection.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 .home-section {
     position: relative;
     width: 100%;
@@ -21,22 +23,29 @@
   }
   
   .home-title {
-    font-size: 3rem; /* Adjust size as needed */
+    font-size: 4rem; /* Adjust size as needed */
     margin-bottom: 20px;
+  
   }
   
   .home-description {
-    font-size: 1.25rem; /* Adjust size as needed */
+    font-size: 1.70rem; /* Adjust size as needed */
+  
   }
   
   /* Responsive Design */
   @media (max-width: 768px) {
     .home-title {
       font-size: 2rem; /* Adjust size as needed */
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; 
     }
   
     .home-description {
       font-size: 1rem; /* Adjust size as needed */
+      font-family: Georgia, 'Times New Roman', Times, serif;
     }
+    
   }
+
+  
   
