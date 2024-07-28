@@ -33,16 +33,12 @@ const GallerySection = () => {
         </div>
         <div className="event-container">
           <img src={containerImage2} alt="Event 2" className="event-image" />
-          <p className="event-description">### Upcoming Event: Tech Innovation Summit 2024
-
-Discover the latest in technology at the Tech Innovation Summit 2024. Join us for keynote talks, interactive sessions, and networking opportunities. Be part of the future—save the date!</p>
+          <p className="event-description">Discover the latest in technology at the Tech Innovation Summit 2024. Join us for keynote talks, interactive sessions, and networking opportunities. Be part of the future—save the date!</p>
           <a href="#" className="learn-more">Learn more</a>
         </div>
         <div className="event-container">
           <img src={containerImage3} alt="Event 3" className="event-image" />
-          <p className="event-description">### Upcoming Event: Tech Innovation Summit 2024
-
-Discover the latest in technology at the Tech Innovation Summit 2024. Join us for keynote talks, interactive sessions, and networking opportunities. Be part of the future—save the date!</p>
+          <p className="event-description">Discover the latest in technology at the Tech Innovation Summit 2024. Join us for keynote talks, interactive sessions, and networking opportunities. Be part of the future—save the date!</p>
           <a href="#" className="learn-more">Learn more</a>
         </div>
       </div>
