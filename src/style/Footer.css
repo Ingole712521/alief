@@ -76,6 +76,11 @@
 .social-media a:hover {
   color: #fab9da; /* Light pink color on hover */
 }
+.footer-section p1 {
+  margin: 5px 0;
+  font-size: 1rem;
+  font-style: initial;
+}
 
 /* Responsive Styles */
 @media (max-width: 768px) {
