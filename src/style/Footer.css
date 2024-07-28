@@ -18,7 +18,7 @@
 
 .footer-divider {
   border-top: 4px solid white; /* Thick white dividing line */
-  margin: 20px 0;
+  margin: -8px ;
 }
 
 .footer-content {
@@ -26,12 +26,13 @@
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 6px;
 }
 
 .footer-section {
   flex: 1 1 200px; /* Allows sections to grow and shrink */
   margin: 10px;
+  text-align: left; /* Center all text in footer sections */
 }
 
 .footer-section h3 {
@@ -42,6 +43,7 @@
 .footer-section p {
   margin: 5px 0;
   font-size: 1rem;
+  text-align: left; /* Center the p elements */
 }
 
 .footer-section a {
@@ -54,24 +56,10 @@
   color: #fab9da; /* Light pink color on hover */
 }
 
-.submit-button {
-  padding: 10px;
-  background-color: #ff99cc; /* Light pink color */
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.submit-button:hover {
-  background-color: #ff6699; /* Darker pink color on hover */
-}
-
 .social-media {
   display: flex;
   gap: 20px; /* Space between the social media icons */
-  justify-content: center;
+  justify-content: left; /* Center the social media links */
 }
 
 .social-media a {

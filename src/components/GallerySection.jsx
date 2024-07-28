@@ -28,17 +28,17 @@ const GallerySection = () => {
       <div className="event-containers">
         <div className="event-container">
           <img src={containerImage1} alt="Event 1" className="event-image" />
-          <p className="event-description">Description of Event 1</p>
+          <p className="event-description">Join us for the Tech Innovation Summit 2024, where industry leaders, innovators, and tech enthusiasts gather to explore the latest advancements in technology. This exciting event will feature keynote speeches from renowned experts, interactive workshops, and networking opportunities. Don't miss your chance to stay ahead of the curve and be part of the future of tech innovation. Save the date and prepare to be inspired</p>
           <a href="#" className="learn-more">Learn more</a>
         </div>
         <div className="event-container">
           <img src={containerImage2} alt="Event 2" className="event-image" />
-          <p className="event-description">Description of Event 2</p>
+          <p className="event-description">Join us for the Tech Innovation Summit 2024, where industry leaders, innovators, and tech enthusiasts gather to explore the latest advancements in technology. This exciting event will feature keynote speeches from renowned experts, interactive workshops, and networking opportunities. Don't miss your chance to stay ahead of the curve and be part of the future of tech innovation. Save the date and prepare to be inspired</p>
           <a href="#" className="learn-more">Learn more</a>
         </div>
         <div className="event-container">
           <img src={containerImage3} alt="Event 3" className="event-image" />
-          <p className="event-description">Description of Event 3</p>
+          <p className="event-description">Join us for the Tech Innovation Summit 2024, where industry leaders, innovators, and tech enthusiasts gather to explore the latest advancements in technology. This exciting event will feature keynote speeches from renowned experts, interactive workshops, and networking opportunities. Don't miss your chance to stay ahead of the curve and be part of the future of tech innovation. Save the date and prepare to be inspired</p>
           <a href="#" className="learn-more">Learn more</a>
         </div>
       </div>
