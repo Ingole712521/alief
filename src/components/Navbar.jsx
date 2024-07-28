@@ -23,10 +23,10 @@ const Navbar = () => {
         <a href="#contact" onClick={() => setIsMobileMenuOpen(false)}>Contact Us</a>
       </div>
       <div className="navbar-social-media">
-        <a href="https://facebook.com" aria-label="Facebook"><FontAwesomeIcon icon={faFacebook} /></a>
+        <a href="https://www.facebook.com/profile.php?id=61562956484753" aria-label="Facebook"><FontAwesomeIcon icon={faFacebook} /></a>
         <a href="https://twitter.com" aria-label="Twitter"><FontAwesomeIcon icon={faTwitter} /></a>
-        <a href="https://instagram.com" aria-label="Instagram"><FontAwesomeIcon icon={faInstagram} /></a>
-        <a href="https://linkedin.com" aria-label="LinkedIn"><FontAwesomeIcon icon={faLinkedin} /></a>
+        <a href="https://www.instagram.com/alifviewmedia/" aria-label="Instagram"><FontAwesomeIcon icon={faInstagram} /></a>
+        <a href="https://www.linkedin.com/in/alifview-media-552358320/" aria-label="LinkedIn"><FontAwesomeIcon icon={faLinkedin} /></a>
       </div>
       <div className="navbar-hamburger" onClick={toggleMobileMenu}>
         <div className="hamburger-line"></div>

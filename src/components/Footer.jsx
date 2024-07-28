@@ -42,8 +42,7 @@ const Footer = () => {
 " aria-label="Facebook"><FontAwesomeIcon icon={faFacebook} /></a>
             <a href="https://twitter.com" aria-label="Twitter"><FontAwesomeIcon icon={faTwitter} /></a>
             <a href=" https://www.instagram.com/alifviewmedia/ " aria-label="Instagram"><FontAwesomeIcon icon={faInstagram} /></a>
-            <a href="https://www.linkedin.com/in/alifview-media-552358320/
-" aria-label="LinkedIn"><FontAwesomeIcon icon={faLinkedin} /></a>
+            <a href="https://www.linkedin.com/in/alifview-media-552358320/" aria-label="LinkedIn"><FontAwesomeIcon icon={faLinkedin} /></a>
           </div>
         </div>
       </div>
