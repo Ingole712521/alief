@@ -12,7 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #333; /* Dark text color for contrast */
+    color: #000000; /* Dark text color for contrast */
   }
   
   .home-content {
