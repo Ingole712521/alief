@@ -13,27 +13,16 @@ const Footer = () => {
       <div className="footer-divider"></div>
       <div className="footer-content">
         <div className="footer-section">
-          <h3>Reach Us</h3>
-          <p><FontAwesomeIcon icon={faPhone} /> +1 012 3456 789</p>
-          <p><FontAwesomeIcon icon={faEnvelope} /> demo@gmail.com</p>
+          <p>Reach Us</p>
+          <p><FontAwesomeIcon icon={faPhone} /> +91 8329357983</p>
+          <p><FontAwesomeIcon icon={faEnvelope} />marketing.alifviewmedia@gmail.com</p>
           <p><FontAwesomeIcon icon={faMapMarkerAlt} /> 15/4, Jalsa Apartment, Pakhal Road, Nashik 422011</p>
         </div>
         <div className="footer-section">
-          <h3>Company</h3>
+          <p>Company</p>
           <p><a href="#about">About</a></p>
-          <p><a href="#privacy-policy">Privacy Policy</a></p>
-          <p><a href="#techlabz">Techlabz</a></p>
-          <p><a href="#keybox">Keybox</a></p>
-        </div>
-        <div className="footer-section">
-          <h3>Legal</h3>
-          <p><a href="#terms-of-use">Terms of Use</a></p>
-          <p><a href="#refund-policy">Refund Policy</a></p>
-        </div>
-        <div className="footer-section">
-          <h3>Quick Links</h3>
-          <p><a href="#blogs">Blogs</a></p>
-          <p><a href="#forum">Forum</a></p>
+          <p><a href="#upcoming">Gallery</a></p>
+          <p><a href="#contact">Contact US</a></p>
         </div>
         <div className="footer-section">
           <h3>Follow Us</h3>
@@ -45,6 +34,9 @@ const Footer = () => {
             <a href="https://www.linkedin.com/in/alifview-media-552358320/" aria-label="LinkedIn"><FontAwesomeIcon icon={faLinkedin} /></a>
           </div>
         </div>
+      </div>
+      <div className="footer-copyright">
+        <p>Copyright © 2024 Alif View Media</p>
       </div>
     </footer>
   );

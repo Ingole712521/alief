@@ -11,10 +11,11 @@
   background-color: #fff;
   border-bottom: 1px solid #dadada;
   z-index: 1000;
+  margin: 0; /* Ensure no extra margin is added */
 }
 
 .navbar-logo img {
-  height: 40px; /* Increased size of logo */
+  height: 40px; /* Adjust size as needed */
 }
 
 .navbar-content {
@@ -38,23 +39,6 @@
 }
 
 .navbar-links a:hover {
-  color: #ff007f;
-}
-
-/* Social media links */
-.navbar-social-media {
-  display: flex;
-  gap: 20px; /* Space between social media icons */
-}
-
-.navbar-social-media a {
-  color: #000;
-  font-size: 1.5em;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.navbar-social-media a:hover {
   color: #ff007f;
 }
 
@@ -100,31 +84,6 @@
   }
 
   .navbar-links a:hover {
-    color: #ff007f;
-  }
-
-  .navbar-social-media {
-    display: none; /* Hide social media icons by default */
-    flex-direction: column;
-    width: 100%;
-    background-color: #fff;
-    position: absolute;
-    top: 70px;
-    left: 0;
-    border-bottom: 1px solid #ddd;
-  }
-
-  .navbar-social-media.active {
-    display: flex; /* Show social media icons when mobile menu is open */
-  }
-
-  .navbar-social-media a {
-    padding: 15px;
-    text-align: center;
-    border-top: 1px solid #ddd;
-  }
-
-  .navbar-social-media a:hover {
     color: #ff007f;
   }
 }
