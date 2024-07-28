@@ -1,12 +1,14 @@
+/* General Styles */
 .footer {
   background-color: #d6205c; /* Dark pink background */
   color: white;
   padding: 20px;
-  text-align: center;
+  text-align: left;
 }
 
 .footer-logo {
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .footer-logo img {
@@ -49,25 +51,7 @@
 }
 
 .footer-section a:hover {
-  color: #ff99cc; /* Light pink color on hover */
-}
-
-.newsletter-form {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.newsletter-form input {
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-}
-
-.newsletter-form label {
-  display: flex;
-  align-items: center;
-  gap: 5px;
+  color: #fab9da; /* Light pink color on hover */
 }
 
 .submit-button {
@@ -84,6 +68,23 @@
   background-color: #ff6699; /* Darker pink color on hover */
 }
 
+.social-media {
+  display: flex;
+  gap: 20px; /* Space between the social media icons */
+  justify-content: center;
+}
+
+.social-media a {
+  color: white;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  color: #fab9da; /* Light pink color on hover */
+}
+
+/* Responsive Styles */
 @media (max-width: 768px) {
   .footer-content {
     flex-direction: column;

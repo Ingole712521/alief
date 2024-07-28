@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faEnvelope, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
+import { faFacebook, faTwitter, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import "../style/Footer.css";
 import companyLogo from '../assets/Aliief_white.png';
 
@@ -15,7 +16,7 @@ const Footer = () => {
           <h3>Reach Us</h3>
           <p><FontAwesomeIcon icon={faPhone} /> +1 012 3456 789</p>
           <p><FontAwesomeIcon icon={faEnvelope} /> demo@gmail.com</p>
-          <p><FontAwesomeIcon icon={faMapMarkerAlt} /> 132 Dartmouth Street, Boston, Massachusetts 02156, United States</p>
+          <p><FontAwesomeIcon icon={faMapMarkerAlt} /> 15/4, Jalsa Apartment, Pakhal Road, Nashik 422011</p>
         </div>
         <div className="footer-section">
           <h3>Company</h3>
@@ -34,17 +35,16 @@ const Footer = () => {
           <p><a href="#blogs">Blogs</a></p>
           <p><a href="#forum">Forum</a></p>
         </div>
-        <div className="footer-section newsletter">
-          <h3>Join Our Newsletter</h3>
-          <p>Subscribe for weekly updates to improve your tool management.</p>
-          <form className="newsletter-form">
-            <input type="email" placeholder="Your email address" required />
-            <label>
-              <input type="checkbox" />
-              I agree to receive weekly updates
-            </label>
-            <button type="submit" className="submit-button">Subscribe</button>
-          </form>
+        <div className="footer-section">
+          <h3>Follow Us</h3>
+          <div className="social-media">
+            <a href=" https://www.facebook.com/profile.php?id=61562956484753
+" aria-label="Facebook"><FontAwesomeIcon icon={faFacebook} /></a>
+            <a href="https://twitter.com" aria-label="Twitter"><FontAwesomeIcon icon={faTwitter} /></a>
+            <a href=" https://www.instagram.com/alifviewmedia/ " aria-label="Instagram"><FontAwesomeIcon icon={faInstagram} /></a>
+            <a href="https://www.linkedin.com/in/alifview-media-552358320/
+" aria-label="LinkedIn"><FontAwesomeIcon icon={faLinkedin} /></a>
+          </div>
         </div>
       </div>
     </footer>

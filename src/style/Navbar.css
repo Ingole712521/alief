@@ -7,14 +7,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px; /* Adjust padding as needed */
-  background-color: #fff; /* Background color for navbar */
-  border-bottom: 1px solid #ddd; /* Optional: Adds a bottom border */
-  z-index: 1000; /* Ensures the navbar is above other content */
+  padding: 10px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  z-index: 1000;
 }
 
 .navbar-logo img {
-  height: 50px; /* Adjust size of logo as needed */
+  height: 70px; /* Increased size of logo */
 }
 
 .navbar-links {
@@ -24,13 +24,30 @@
 
 .navbar-links a {
   text-decoration: none;
-  color: #000; /* Default link color */
+  color: #000;
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 .navbar-links a:hover {
-  color: #ff007f; /* Color on hover */
+  color: #ff007f;
+}
+
+/* Social media links */
+.navbar-social-media {
+  display: flex;
+  gap: 20px; /* Space between social media icons */
+}
+
+.navbar-social-media a {
+  color: #000;
+  font-size: 1.5em;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-social-media a:hover {
+  color: #ff007f;
 }
 
 /* Mobile menu styles */
@@ -53,11 +70,11 @@
     display: none; /* Hide links by default */
     flex-direction: column;
     width: 100%;
-    background-color: #fff; /* Background color for dropdown */
+    background-color: #fff;
     position: absolute;
-    top: 60px; /* Adjust based on navbar height */
+    top: 70px;
     left: 0;
-    border-bottom: 1px solid #ddd; /* Optional: Adds a bottom border */
+    border-bottom: 1px solid #ddd;
   }
 
   .navbar-links.active {
@@ -71,20 +88,45 @@
   .navbar-links a {
     padding: 15px;
     text-align: center;
-    border-top: 1px solid #ddd; /* Optional: Adds a top border to each link */
+    border-top: 1px solid #ddd;
   }
 
   .navbar-links a:hover {
-    color: #ff007f; /* Color on hover */
+    color: #ff007f;
+  }
+
+  .navbar-social-media {
+    display: none; /* Hide social media icons by default */
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .navbar-social-media.active {
+    display: flex; /* Show social media icons when mobile menu is open */
+  }
+
+  .navbar-social-media a {
+    padding: 15px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+  }
+
+  .navbar-social-media a:hover {
+    color: #ff007f;
   }
 }
 
 /* Add padding to the body content to avoid overlap with the fixed navbar */
 body {
-  padding-top: 70px; /* Adjust based on the height of your navbar */
+  padding-top: 80px; /* Adjust based on the height of your navbar */
 }
 
 /* Ensure padding for content container */
 .main-content {
-  padding-top: 70px; /* Adjust based on the height of your navbar */
+  padding-top: 80px; /* Adjust based on the height of your navbar */
 }
