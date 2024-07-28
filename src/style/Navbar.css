@@ -1,4 +1,4 @@
-/* Navbar styles */
+/* Navbar.css */
 .navbar {
   position: fixed;
   top: 0;
@@ -14,7 +14,7 @@
 }
 
 .navbar-logo img {
-  height: 40px; /* Adjust logo size */
+  height: 40px; /* Increased size of logo */
 }
 
 .navbar-content {
@@ -34,10 +34,6 @@
   text-decoration: none;
   color: #000;
   font-weight: bold;
-  font-size: 16px; /* Ensure consistent font size */
-  padding: 10px 15px; /* Adjust padding */
-  display: flex;
-  align-items: center; /* Align text and emoji vertically */
   transition: color 0.3s ease;
 }
 
