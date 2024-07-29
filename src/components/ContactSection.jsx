@@ -4,7 +4,7 @@ import contactImage from "../assets/Frame 1.png";
 const ContactSection = () => {
   return (
     <section id="contact" className="contact-section" data-aos="fade-in">
-      <h2 className="contact-title" data-aos="fade-in">Let's Connect 🔗</h2>
+      <h2 className="contact-title" data-aos="fade-in">Let's Connect 🤝</h2>
       <p className="contact-subtitle" data-aos="fade-in">Any question or remarks? Just write us a message!</p>
       <div className="contact-container">
         <div className="contact-image-container" data-aos="fade-in">
