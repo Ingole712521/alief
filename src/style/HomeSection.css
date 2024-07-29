@@ -24,7 +24,7 @@ body, html {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #000000; /* Dark text color for contrast */
+  color: #ffffff; /* Dark text color for contrast */
 }
 
 .home-content {
