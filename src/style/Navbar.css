@@ -1,10 +1,4 @@
 /* Navbar.css */
-* {
-  margin: 0;
-  padding: 0;
-   /* Include padding and border in the element's total width and height */
-}
-
 .navbar {
   position: fixed;
   top: 0;
@@ -13,11 +7,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 20px 20px;
   background-color: #fff;
   border-bottom: 0px solid #dadada;
   z-index: 1000;
   margin: 0; /* Ensure no extra margin is added */
+  text-align: center;
+  margin-bottom: 0%;
+  
 }
 
 .navbar-logo img {
