@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-section">
           <h3>Reach Us</h3>
-          <p><FontAwesomeIcon icon={faPhone} />                                 +91 8329357983</p>
+          <p><FontAwesomeIcon icon={faPhone} />               +91 9529518393               </p>
           <p><FontAwesomeIcon icon={faEnvelope} />                              marketing.alifviewmedia@gmail.com</p>
           <p><FontAwesomeIcon icon={faMapMarkerAlt} />                          15/4, Jalsa Apartment, Pakhal Road, Nashik 422011</p>
         </div>
@@ -29,7 +29,7 @@ const Footer = () => {
           <div className="social-media">
             <a href=" https://www.facebook.com/profile.php?id=61562956484753
 " aria-label="Facebook"><FontAwesomeIcon icon={faFacebook} /></a>
-            <a href="https://twitter.com" aria-label="Twitter"><FontAwesomeIcon icon={faTwitter} /></a>
+            <a href="https://x.com/AlifViewM2808" aria-label="Twitter"><FontAwesomeIcon icon={faTwitter} /></a>
             <a href=" https://www.instagram.com/alifviewmedia/ " aria-label="Instagram"><FontAwesomeIcon icon={faInstagram} /></a>
             <a href="https://www.linkedin.com/in/alifview-media-552358320/" aria-label="LinkedIn"><FontAwesomeIcon icon={faLinkedin} /></a>
           </div>

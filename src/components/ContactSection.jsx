@@ -1,5 +1,5 @@
 import "../style/ContactSection.css";
-import contactImage from "../assets/Frame.png";
+import contactImage from "../assets/Frame 1.png";
 
 const ContactSection = () => {
   return (
