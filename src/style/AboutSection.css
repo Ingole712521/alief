@@ -7,8 +7,10 @@
 }
 
 .about-title {
+ font-family: "Playfair Display", serif;;
   font-size: 4rem; /* Large title size */
   margin-bottom: 30px;
+  padding-bottom: 2%;
 }
 
 .about-content {
@@ -23,12 +25,15 @@
 .about-logo {
   max-width: 500px; /* Adjusted size for better responsiveness */
   height: auto;
+  padding-left: 2%;
 }
 
 .about-description {
+  text-align: justify;
   font-size: 1.5rem; /* Increase description size */
   max-width: 600px; /* Limit width for better readability */
   line-height: 1.6; /* Improve readability */
+  padding-left: 2%;
 }
 
 /* Responsive Design */

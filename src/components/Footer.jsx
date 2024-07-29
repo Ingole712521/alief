@@ -13,13 +13,13 @@ const Footer = () => {
       <div className="footer-divider"></div>
       <div className="footer-content">
         <div className="footer-section">
-          <p1>Reach Us</p1>
-          <p><FontAwesomeIcon icon={faPhone} />                  +91 8329357983</p>
-          <p><FontAwesomeIcon icon={faEnvelope} />                marketing.alifviewmedia@gmail.com</p>
-          <p><FontAwesomeIcon icon={faMapMarkerAlt} />                 15/4, Jalsa Apartment, Pakhal Road, Nashik 422011</p>
+          <h3>Reach Us</h3>
+          <p><FontAwesomeIcon icon={faPhone} />                                 +91 8329357983</p>
+          <p><FontAwesomeIcon icon={faEnvelope} />                              marketing.alifviewmedia@gmail.com</p>
+          <p><FontAwesomeIcon icon={faMapMarkerAlt} />                          15/4, Jalsa Apartment, Pakhal Road, Nashik 422011</p>
         </div>
         <div className="footer-section">
-          <p1>Company</p1>
+          <h3>Company</h3>
           <p><a href="#about">About</a></p>
           <p><a href="#upcoming">Gallery</a></p>
           <p><a href="#contact">Contact US</a></p>

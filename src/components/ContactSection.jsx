@@ -4,7 +4,7 @@ import contactImage from "../assets/Frame.png";
 const ContactSection = () => {
   return (
     <section id="contact" className="contact-section">
-    <h2 className="contact-title">Let's Connect</h2>
+    <h2 className="contact-title">Let's Connect 🔗 </h2>
     <p className="contact-subtitle">Any question or remarks? Just write us a message!</p>
     <div className="contact-container">
       <div className="contact-image-container">

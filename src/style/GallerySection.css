@@ -20,13 +20,15 @@
   }
   
   .section-title {
-    font-size: 4rem;
+    font-family: "Playfair Display", serif;;
+  font-size: 4rem;    
     margin-bottom: 30px;
     position: center;
     z-index: 1;
     background: #fff; /* White background to make sure it's visible */
     display: inline-block;
     padding: 0 20px;
+    padding-bottom: 2%;
   }
   
   .event-containers {
@@ -57,6 +59,7 @@
   }
   
   .event-description {
+    font-family: "Playfair Display", serif;;
     padding: 15px;
     font-size: 1.1rem;
     height: 100px; /* Adjust height as needed */

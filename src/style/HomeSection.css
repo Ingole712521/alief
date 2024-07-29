@@ -26,17 +26,22 @@
   padding: 20px; /* Increased padding for better spacing */
   max-width: 80%;
   margin: 0; /* Ensure no extra margin */
+  padding-top: -190%;
 }
 
 .home-title {
+  font-family: "Playfair Display", serif;;
   font-size: 4rem; /* Adjust size as needed */
   margin-bottom: 20px;
-  font-family: 'Roboto', sans-serif; /* Consistent font family */
+  padding-top: -9cap;
+  
 }
 
 .home-description {
+  font-family: "Playfair Display", serif;;
   font-size: 1.70rem; /* Adjust size as needed */
-  font-family: 'Roboto', sans-serif; /* Consistent font family */
+  padding-top: 2%;
+  
 }
 
 /* Responsive Design */

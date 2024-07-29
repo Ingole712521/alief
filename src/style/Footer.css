@@ -32,7 +32,7 @@
 .footer-section {
   flex: 1 1 200px; /* Allows sections to grow and shrink */
   margin: 10px;
-  text-align: center; /* Center text in footer sections */
+  text-align: left; /* Center text in footer sections */
 }
 
 .footer-section h3 {
@@ -58,7 +58,7 @@
 .social-media {
   display: flex;
   gap: 20px; /* Space between social media icons */
-  justify-content: center; /* Center social media links */
+  justify-content: left; /* Center social media links */
   margin-top: 20px; /* Add margin to avoid overlap with other sections */
 }
 
@@ -77,6 +77,7 @@
   color: #fab9da; /* Light pink color on hover */
 }
 .footer-section p1 {
+  
   margin: 5px 0;
   font-size: 1rem;
   font-style: initial;
