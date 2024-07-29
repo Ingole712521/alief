@@ -1,7 +1,7 @@
 import "../style/HomeSection.css";
 
 // Import a single image
-import backgroundImage from '../assets/background.png'; // Adjust path as needed
+import backgroundImage from '../assets/AdobeStock_194420149.jpg'; // Adjust path as needed
 
 const HomeSection = () => {
   return (
